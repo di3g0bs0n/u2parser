@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='u2parser',
-    version='1.0.5',
+    version='1.1',
     author='Diego Fernandez',
     author_email='di3g0bs0n@gmail.com',
     description=('A parser for Unified2 logs (Snort).'),
@@ -10,7 +10,7 @@ setup(
     license='GPLv3',
     keywords='snort unified2 parser',
     packages=['.'],
-    url='',
+    url='https://github.com/di3g0bs0n/u2parser',
     install_requires=['netaddr==0.7.18'],
     classifiers=[
         'Development Status :: 4 - Beta',

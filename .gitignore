@@ -22,6 +22,7 @@ sdist/
 var/
 *.egg-info/
 .installed.cfg
+setup.cfg
 *.egg
 
 # PyInstaller
@@ -91,3 +92,4 @@ ENV/
 
 LICENSE.txt
 README.txt
+.gitignore
