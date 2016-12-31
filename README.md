@@ -22,9 +22,3 @@ for record in u2.parse():
 	print record
 ```
 
-
-## Notice
-
-At the moment, no events are included in unified format, or unified2 IPv6 events
-
-
