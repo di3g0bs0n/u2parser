@@ -13,10 +13,11 @@ pip install u2parser
 
 ## Usage
 
-```python
-import u2parser
 
-u2 = u2parser.u2(path_to_file)
+```python
+from u2parser.u2parser import u2
+
+u2 = u2(path_to_log, sid_file = '/etc/snort/sid-msg.map')
 
 for record in u2.parse():
 	print record
