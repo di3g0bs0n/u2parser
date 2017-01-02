@@ -2,14 +2,14 @@ from setuptools import find_packages, setup
 
 setup(
     name='u2parser',
-    version='1.2',
+    version='1.3',
     author='Diego Fernandez',
     author_email='di3g0bs0n@gmail.com',
     description=('A parser for Unified2 logs (Snort).'),
-    long_description='A unified2 log parser which reads a file, and returns all records in json format.',
+    long_description='A unified2 log parser which reads a file, and returns all records.',
     license='GPLv3',
     keywords='snort unified2 parser',
-    packages=['.'],
+    packages=['u2parser'],
     url='https://github.com/di3g0bs0n/u2parser',
     install_requires=['netaddr==0.7.18'],
     classifiers=[
